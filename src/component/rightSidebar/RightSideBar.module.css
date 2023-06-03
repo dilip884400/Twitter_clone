@@ -1,0 +1,13 @@
+
+.RightSideBar{
+    border-left: 1px solid rgb(238, 236, 236);
+    margin-right: 6rem;
+    margin-left: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+   .RightSideBar{
+    display: none;
+   }
+  } 

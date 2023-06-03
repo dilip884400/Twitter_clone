@@ -1,0 +1,20 @@
+.btn {
+  width: 15rem;
+  height: 3rem;
+  border-radius: 25px;
+  background-color: white;
+  border: white;
+  color: black;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn:hover {
+  background-color: gainsboro;
+}
+.photo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+}

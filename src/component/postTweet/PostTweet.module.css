@@ -1,0 +1,102 @@
+.tweetBox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--twitter-background);
+  padding-right: 10px;
+  /* border: 1px solid red; */
+  border-right: 1px solid #EFF1F1 !important ;
+  border-left: 1px solid #EFF1F1 !important ;
+}
+
+.tweetBox__input {
+  padding: 20px;
+  display: flex;
+}
+.tweetBox textarea {
+  /* border: 1px solid red; */
+  width: 70%;
+}
+
+.tweetBox__input > input {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+}
+
+.tweetBox__imageInput {
+  border: none;
+  padding: 10px;
+}
+
+.tweetBox__tweetButton {
+  background-color: #1d9bf0 !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: 80px;
+  height: 40px !important;
+
+  margin-left: auto !important;
+}
+
+.iconsDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.iconsDiv div {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+.image {
+  font-size: 25px;
+  color: #1d9bf0;
+}
+
+.gifi {
+  font-size: 25px;
+  color: #1d9bf0;
+}
+
+.poll {
+  font-size: 25px;
+  color: #1d9bf0;
+}
+.smily {
+  font-size: 25px;
+  color: #1d9bf0;
+}
+.timeTable {
+  font-size: 25px;
+  color: #1d9bf0;
+}
+.location {
+  font-size: 25px;
+  color: #1d9bf0;
+}
+@media screen and (max-width: 768px) {
+  .tweetBox__tweetButton {
+    margin-left: 18rem !important;
+    margin-top: 0.3rem !important;
+  }
+  .tweetBox textarea {
+    margin-top: -2rem;
+  }
+
+  .iconsDiv {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+
+  .tweetBox__tweetButton {
+    background-color: #1d9bf0 !important;
+    border: none !important;
+
+    margin-left: auto !important;
+  }
+}

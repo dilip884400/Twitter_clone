@@ -1,0 +1,107 @@
+.feed {
+  overflow-y: scroll;
+  max-height: 100vh;
+  width: 94%;
+  margin-right: 0;
+  border-color: #EFF1F1 !important;
+}
+
+.foru  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: #00acee;
+}
+
+.foru :hover{
+  cursor: pointer;
+  color: #00acee;
+  box-shadow: black;
+}
+
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.feed__header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid var(--twitter-background);
+  padding: 15px 20px;
+}
+
+.Avatar {
+  display: none !important;
+}
+.twitterLogo {
+  display: none;
+}
+
+.feed__header > h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.footer {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .feed {
+    margin-top: 0;
+    width: 100vw;
+    margin-left: -6.1rem;
+  }
+  .feed__header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .Avatar {
+    display: block !important;
+  }
+  .feed__header h2 {
+    display: none;
+  }
+  .twitterLogo {
+    display: block;
+    margin-left: 8rem;
+    font-size: 30px;
+    color: #00acee;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #ffff;
+    height: 3.3rem;
+    align-items: center;
+  }
+  .footerHome {
+    font-size: 30px;
+    color: black;
+    margin-left: 10px;
+  }
+  .footerSearch {
+    font-size: 30px;
+    color: black;
+  }
+  .footerNotification {
+    font-size: 25px;
+  }
+  .footerEmail {
+    font-size: 30px;
+    color: black;
+    margin-right: 10px;
+  }
+}

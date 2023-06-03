@@ -1,0 +1,89 @@
+.container {
+  border: 1px solid lightgray;
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: auto;
+  padding: 2rem 0;
+  padding-left: 7%;
+}
+
+.emailbtn {
+  color: blue;
+  position: relative;
+  left: 24.3rem;
+  cursor: pointer;
+  width: 116px;
+  margin-top: 10px;
+}
+.emailbtn:hover {
+  border-bottom: 1px solid rgb(89, 145, 185);
+}
+
+.textcontent {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.para {
+  width: 82%;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.monthSelector {
+  width: 100%;
+}
+
+.selectorDiv {
+  display: flex;
+  width: 81%;
+  justify-content: space-between;
+}
+
+.closeBtn {
+  position: absolute;
+  left: 27%;
+  top: 0.8rem;
+  font-size: 30px;
+  /* background-color: red; */
+}
+
+.closeIcon {
+  font-size: 1.7rem;
+
+  border-radius: 50%;
+  color: black;
+  cursor: pointer;
+  /* background-color: aqua; */
+}
+
+@media (max-width: 573px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+  }
+  .container h1 {
+    text-align: center;
+  }
+  .closeBtn {
+    left: 10%;
+  }
+}
+@media (max-width: 485px) {
+  .container h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 305px) {
+  .container h1 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}
